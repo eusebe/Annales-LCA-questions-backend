@@ -12,30 +12,30 @@ body:
     id: concours_dossier
     attributes:
       label: Concours et dossier concerné
-      description: Par exemple : EDN 2025 - Dossier 1
-      placeholder: EDN 2025 - Dossier 1
+      description: "Par exemple : EDN 2025 - Dossier 1"
+      placeholder: "EDN 2025 - Dossier 1"
     validations:
       required: true
   - type: input
     id: question_concernee
     attributes:
       label: Question concernée
-      description: Par exemple : Question 3
-      placeholder: Question 3
+      description: "Par exemple : Question 3"
+      placeholder: "Question 3"
     validations:
       required: true
   - type: input
     id: items_concernes
     attributes:
       label: Item(s) concerné(s)
-      description: Par exemple : A ou CDE
-      placeholder: A ou CDE
+      description: "Par exemple : A ou CDE"
+      placeholder: "A ou CDE"
   - type: textarea
     id: votre_question
     attributes:
       label: Votre question
       description: Posez votre question ici. Soyez le plus précis possible.
-      placeholder: Je ne comprends pas pourquoi l'item B est faux...
+      placeholder: "Je ne comprends pas pourquoi l'item B est faux..."
       render: markdown
     validations:
       required: true
