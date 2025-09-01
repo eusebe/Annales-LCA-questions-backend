@@ -1,7 +1,7 @@
 name: Poser une question
-description: Modèle pour poser une question sur un QCM ou un dossier.
+about: Modèle pour poser une question sur un QCM ou un dossier.
 title: '[QUESTION] QCM Dossier X - Question Y'
-labels: question
+labels: ["question"]
 body:
   - type: markdown
     attributes:
